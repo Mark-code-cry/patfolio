@@ -11,7 +11,7 @@ export default defineConfig({
 
     allowedHosts: [
       'patfolio-1.onrender.com', 
-      'patfolio-14.onrender.com', 
+      'patfolio-15.onrender.com', 
       '.onrender.com',
       'localhost',
       '127.0.0.1',
