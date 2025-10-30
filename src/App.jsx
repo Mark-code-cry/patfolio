@@ -1,3 +1,4 @@
+import React from 'react' // Explicitly added React import to aid JSX compatibility
 import { BrowserRouter as Router } from 'react-router-dom'
 import { ThemeProvider } from './context/ThemeContext'
 import Navbar from './components/Navbar'
@@ -20,4 +21,4 @@ function App() {
   )
 }
 
-export default App 
+export default App
