@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
-  base: "/",
+  base: "./",
   plugins: [react()],
   server: {
     host: '0.0.0.0',
@@ -11,7 +11,7 @@ export default defineConfig({
 
     allowedHosts: [
       'patfolio-1.onrender.com', 
-      'patfolio-12.onrender.com', 
+      'patfolio-13.onrender.com', 
       '.onrender.com',
       'localhost',
       '127.0.0.1',
